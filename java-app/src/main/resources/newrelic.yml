@@ -1,0 +1,11 @@
+common: &default_settings
+  license_key: 7e5834987320e2b9d7f694c21c896a87FFFFNRAL
+  app_name: test 
+  agent_enabled: true
+  profile_trace: true
+  audit_logging: true
+
+logging:
+  custom:
+    - name: newrelic-log
+      file_path: log.txt
